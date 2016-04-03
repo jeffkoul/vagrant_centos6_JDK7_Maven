@@ -12,7 +12,7 @@ sudo chown root: /etc/profile.d/profile_JDK7.sh
 source /etc/profile.d/profile_JDK7.sh
 
 tar xvf /host/pkgs/apache-maven-3.3.9-bin.tar
-mv apache-maven-3.3.9 /opt/
+sudo mv apache-maven-3.3.9 /opt/
 sudo cp /vagrant/profile_Maven.sh /etc/profile.d/
 sudo chown root: /etc/profile.d/profile_Maven.sh
 source /etc/profile.d/profile_Maven.sh
