@@ -1,0 +1,1 @@
+# vagrant_centos6_JDK7_Maven
